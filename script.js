@@ -132,7 +132,7 @@ function filterApplications() {
     const statusFilter = document.getElementById('statusFilter').value;
 
     // Fetch applications data
-    fetch('data/applications.json')
+    fetch('applications.json')
         .then(response => response.json())
         .then(data => {
             let filteredApplications = data;
