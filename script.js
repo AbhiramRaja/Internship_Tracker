@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Load applications from JSON (or backend)
 function loadApplications() {
-    fetch('data/applications.json')
+    fetch('applications.json')
         .then(response => response.json())
         .then(data => {
             displayApplications(data); // Display applications after data is fetched
