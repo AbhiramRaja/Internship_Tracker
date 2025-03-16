@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="hamburger-menu" onclick="toggleSidebar()">☰</div>
+        <div class="navbar-title">Internship Tracker</div>
+        <div class="profile">
+            <img src="images/profile-pic.jpg" alt="Profile Picture">
+            <span>Abhiram Raja</span>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/profile-pic.jpg" alt="Profile Picture">
+            <span>Abhiram Raja</span>
+            <span class="close-icon" onclick="toggleSidebar()">✖</span>
+        </div>
+        <ul>
+            <li><a href="dashboard.html">My Applications</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main class="hero">
+        <h1>Find the Best Internships</h1>
+        <p>Explore top internship opportunities from leading companies</p>
+    </main>
+
+    <!-- Internship Cards -->
+    <section class="internships">
+        <h2>Available Internships</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/amazon-logo.png" alt="Amazon">
+                <h3>Amazon Internship</h3>
+                <p>Software Development Intern</p>
+                <button class="apply">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="images/google-logo.png" alt="Google">
+                <h3>Google Internship</h3>
+                <p>AI/ML Research Intern</p>
+                <button class="apply">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="images/microsoft-logo.png" alt="Microsoft">
+                <h3>Microsoft Internship</h3>
+                <p>Cloud Computing Intern</p>
+                <button class="apply">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="images/facebook-logo.png" alt="Facebook">
+                <h3>Facebook Internship</h3>
+                <p>Backend Development Intern</p>
+                <button class="apply">Apply Now</button>
+            </div>
+            <div class="card">
+                <img src="images/Netflix-logo.png" alt="Netflix">
+                <h3>Netflix Internship</h3>
+                <p>Frontend Development Intern</p>
+                <button class="apply">Apply Now</button>
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+</html>

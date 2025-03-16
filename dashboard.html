@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for the icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="menu-icon" id="hamburger" onclick="toggleSidebar()">☰</div>
+        <div class="logo">Dashboard</div>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/profile-pic.jpg" alt="Profile Picture">
+            <span>Abhiram Raja</span>
+            <span class="close-icon" id="closeSidebar" onclick="toggleSidebar()">✖</span>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="applications.html">My Applications</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </div>
+
+    <main class="dashboard">
+        <h1>Welcome to Your Dashboard</h1>
+        <p>Track your internship applications below:</p>
+        <div class="applications">
+            <h2>My Applications</h2>
+
+            <!-- Filter Dropdown -->
+            <select id="statusFilter" onchange="filterApplications()">
+                <option value="all">All</option>
+                <option value="selected">Selected</option>
+                <option value="rejected">Rejected</option>
+                <option value="interview-call">Interview Call</option>
+                <option value="in-process">In Process</option>
+            </select>
+
+            <!-- Application Cards (Dynamic Content will be displayed here) -->
+            <div id="applicationsList" class="applications-list">
+                <!-- Application cards will be injected here by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

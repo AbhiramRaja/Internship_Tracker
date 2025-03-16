@@ -1,0 +1,50 @@
+[
+    {
+        "company": "Amazon",
+        "position": "Software Development Intern",
+        "status": "Selected",
+        "dateApplied": "2025-01-15",
+        "stipend" : "₹75000"
+
+    },
+    {
+        "company": "Google",
+        "position": "AI/ML Research Intern",
+        "status": "Selected",
+        "dateApplied": "2025-02-10",
+        "stipend" : "₹90000"
+
+    },
+    {
+        "company": "Microsoft",
+        "position": "Cloud Computing Intern",
+        "status": "interview-call",
+        "dateApplied": "2025-01-25",
+        "stipend" : "₹85000"
+
+    },
+    {
+        "company": "Tesla",
+        "position": "Data Analyst Intern",
+        "status": "CV_Submitted",
+        "dateApplied": "2025-03-01",
+        "stipend" : "₹92000"
+
+    },
+    {
+        "company": "Facebook",
+        "position": "Frontend Developer Intern",
+        "status": "Rejected",
+        "dateApplied": "2025-02-15",
+        "stipend" : "₹85000"
+
+    },
+    {
+        "company": "TCS",
+        "position": "Full-Stack Delveloper",
+        "status": "In-Process",
+        "dateApplied": "2025-02-15",
+        "stipend" : "₹45000"
+
+    }
+]

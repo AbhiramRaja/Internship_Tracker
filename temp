@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<button onclick="window.location.href='index.html'">Home</button>
+<button onclick="window.location.href='contact.html'">Contact me</button>
+<!-- <button onclick="window.location.href='https://github.com/AbhiramRaja', '_blank'">Github</button> -->
+<button onclick="window.open('https://github.com/AbhiramRaja', '_blank')">Github</button>
+<button onclick="window.open('https://www.linkedin.com/in/abhiram-raja-1584b3345/', '_blank')">LinkedIn</button>
+<button onclick="window.open('https://www.instagram.com/abhiramraja7/', '_blank')">Instagram</button>
+<body>
+    <h1>Contact me</h1><br>
+    <p>My email is abhiram022007@gmail.com</p>
+    <p>My phone number is 9885352365</p>
+    
+    
+</body>
+</html>
