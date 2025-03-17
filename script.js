@@ -73,7 +73,7 @@ function displayApplications(applications) {
                 ];
                 break;
             case 'rejected':
-                progress = 80;
+                progress = 100;
                 progressStages = [
                     { label: 'Applied', icon: 'fa-file-alt' },
                     { label: 'CV/Resume Submitted', icon: 'fa-file-upload' },
